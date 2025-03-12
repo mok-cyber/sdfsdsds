@@ -1,0 +1,159 @@
+h1,h2,h3,h4,h5{
+    font-size: xx-large;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5); /* Optional dark header */
+    padding: 5px;
+    color: white;
+}
+
+.menu  {
+    font-size: xx-large;
+    list-style: none;
+    display: flex;
+    gap: 150px;
+}
+
+
+a:link{
+    color: burlywood;
+}
+
+
+
+body {
+    background-image: url("monster4.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; /* At least full viewport height */
+}
+
+
+
+/* Ensure content can grow beyond the viewport */
+main {
+    padding: 50px;
+    min-height: 150vh; /* Just for testing scroll */
+    color: white;
+    
+}
+
+.first{
+    position: relative;
+    bottom:-20px ;
+}
+
+.first .intro{
+    color: black;
+}
+
+.first .Tachi_img{
+    position: relative;
+    right: -1300px;
+    bottom: 250px;
+
+}
+
+.second{
+    position: relative;
+    bottom:-20px ;
+}
+
+
+.second h2{
+    color: aqua;  
+}
+
+
+
+
+.third{
+    position: relative;
+    bottom:-20px ;
+}
+.fourth{
+    position: relative;
+    bottom:-20px ;
+}
+.five{
+    position: relative;
+    bottom:-20px ;
+}
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    color: white;
+    text-align: center;
+
+}
+
+.five ol li{
+    color: gold;
+}
+
+.taidaoxia{
+    width: 500px;
+    position: relative;
+    right: -1300px;
+    bottom: 500px;
+}
+
+.comment{
+    color: blue;
+    position: relative;
+    left: 30px;
+}
+
+
+/* Style for the container */
+.five {
+    display: inline-block; /* Shrinks background to text size */
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+/* Style for the title */
+.five h5 {
+    font-size: 1.5em; 
+    margin-bottom: 20px; 
+}
+
+/* Remove default padding and margins from the list */
+.five ol {
+    padding-left: 20px; /* Keeps indentation for ordered list */
+    margin: 0; 
+}
+
+/* Style for list items */
+.five li {
+    margin-bottom: 20px; /* Adds space between list items */
+    line-height: 1.8; /* Improves readability */
+}
+
+/* Optional hover effect */
+.five li:hover {
+    color: #f39c12; /* Changes text color on hover */
+    cursor: pointer;
+}
+
+
+.arrow{
+    position: relative;
+    left: 900px;
+    bottom: 400px;
+}
+
+.ar{
+    position: relative;
+    left: 1620px;
+    bottom: 400px; 
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
